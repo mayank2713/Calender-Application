@@ -1,0 +1,77 @@
+/* Calendar Container Styling */
+.calendar-container {
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* FullCalendar Overrides */
+  .fc .fc-toolbar {
+    margin-bottom: 1rem;
+  }
+  
+  .fc .fc-toolbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .fc .fc-button {
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+  }
+  
+  .fc .fc-button:hover {
+    background: #1976d2;
+  }
+  
+  .fc .fc-daygrid-event {
+    border: none;
+    padding: 2px 4px;
+    font-size: 0.85rem;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fc .fc-daygrid-event:hover {
+    background: rgba(33, 150, 243, 0.8);
+  }
+  
+  .fc .fc-daygrid-day-number {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .calendar-container {
+      padding: 0.5rem;
+    }
+  
+    .calendar-title {
+      font-size: 1.5rem;
+    }
+  
+    .fc .fc-button {
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+    }
+  }
+  

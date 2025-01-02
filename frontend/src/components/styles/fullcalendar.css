@@ -1,0 +1,21 @@
+/* Calendar container styling */
+.fc {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Day grid cell styling */
+  .fc-daygrid-day {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Event styling */
+  .fc-event {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 2px;
+    border-radius: 4px;
+  }
+  

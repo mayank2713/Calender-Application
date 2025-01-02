@@ -1,0 +1,63 @@
+/* Dashboard Container Styling */
+.dashboard-container {
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Table Styling */
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .dashboard-table th {
+    background-color: #2196f3;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .dashboard-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .dashboard-table tr:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #888;
+    font-size: 1rem;
+    padding: 2rem 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-table th,
+    .dashboard-table td {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  }
+  
